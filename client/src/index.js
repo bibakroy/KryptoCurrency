@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { TransactionProvider } from "../src/context/TransactionContext";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <TransactionProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </TransactionProvider>,
   document.getElementById("root")
 );
 
