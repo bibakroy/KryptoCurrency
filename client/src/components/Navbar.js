@@ -14,7 +14,7 @@ const Navbar = () => {
         <h1 className="text-4xl text-white font-bold cursor-pointer">KC</h1>
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+        {["Market", "Exchange", "Wallets"].map((item, index) => (
           <NavbarItem key={index} title={item} />
         ))}
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
