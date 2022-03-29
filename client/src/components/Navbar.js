@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
       <div className="md:flex-[0.5] flex-initial justify-center item-center">
-        <h1 className="text-4xl text-white font-bold cursor-pointer">KC</h1>
+        <h1 className="text-4xl text-white font-bold cursor-pointer">CT</h1>
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Market", "Exchange", "Wallets"].map((item, index) => (
