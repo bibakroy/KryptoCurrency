@@ -1,1 +1,1 @@
-For Watching Live Demo, Go to: https://crypto-transactor.vercel.app/
+Live Demo, Go to: https://crypto-transactor.vercel.app/
